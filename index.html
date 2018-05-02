@@ -1,0 +1,44 @@
+<!DOCTYPE html >
+<html lang = "lt" >
+<head >
+<meta charset="utf-8">
+	<title>Cult of Personality</title>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"> 
+</head>
+<body onload="Main()">
+
+<header> <a href="#" onclick="loadBio()">Apie žaidimą</a>
+	<h1>CULT OF PERSONALITY</h1>
+</header>
+ 
+ <div id = "maindiv"> 
+ 	<div id = "row"	>
+ 		<div id = "sidebar" >
+	 		<h2 class="sidebarName">Žinių bagažas</h2>
+				</div>
+					<div id = "imgdiv">
+	 					<img class ="FullImage" id ="FullImage2">
+	 						<img id ="imgPlace1">
+	 						<img id ="imgPlace2">
+	 								
+	 						<img id ="imgPlace3">
+	 						<img id ="imgPlace4">
+	 						<div id="AtsDiv">
+									 <form id = "frm" > 
+	 									<button type='button' onclick= "checkIfTrue()">Patvirtinti</button> 
+	 								<input  id = "inputText" type="text" name="Pavardė" >
+									 	<button class = "InfoButton" type='button'>i? <span> Įveskite tik pavardę (vardo nereikia) </span></button>
+								 </form>
+  						<button id = "nextButton" type='button' onclick= "showAnother()">Rodyti kitą</button> 
+ 			<div id = "AtsakymoTeisingumas"> </div> 
+ 					</div>
+ 			</div>
+ 				<div class = "container" >
+ 						<iframe id = "f" src = ""></iframe>
+ 					</div>
+ 				</div>
+ 			</div>
+
+<script src= "game.js"></script>
+</body>
+</html>
